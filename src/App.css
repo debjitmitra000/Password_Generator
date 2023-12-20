@@ -1,0 +1,95 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  text-align: center;
+} 
+.head{
+  color: rgb(37, 233, 167);
+  background-color: rgb(82 82 91 );
+  height: 80px;
+  width: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 26px;
+  font-weight: 650;
+  text-shadow: 0 0 1.5px rgb(37, 233, 167);
+}
+.inputbox{
+  outline: 1px solid rgb(37, 233, 167);
+  outline-offset: none;
+  height: 32px;
+  padding-left: 6px;
+}
+.copybutton{
+  color: rgb(37, 233, 167);
+  background-color: rgb(82 82 91 );
+  outline: 1px solid rgb(37, 233, 167);
+  transition: background-color 0.1s;
+  transition: color 0.1s;
+  height: 32px;
+  text-align: center;
+}
+.container{
+  width: 300px;
+  height: 380px;
+}
+.try{
+  color: rgb(37 233 167 );
+  background-color: rgb(82 82 91 );
+  height: 30px;
+  outline: 1px solid rgb(37, 233, 167);
+  transition: background-color 0.1s;
+  transition: color 0.1s;
+  box-shadow: 0px 0px 1.5px 1px rgb(37, 233, 167);
+}
+input[type=range] {
+  appearance: none;
+  width: 80%;
+  height: 8px;
+  width: 180px;
+  border-radius: 4px;  
+  background: rgb(68, 68, 71);
+  box-shadow: inset 0 0 20px rgb(68, 68, 71);
+  overflow: hidden;
+  -webkit-transition: .2s;
+  transition: opacity .2s;
+  cursor: pointer;
+  box-shadow: 0px 0px 1.5px 1px rgb(37, 233, 167);
+}
+input[type=range]::-webkit-slider-thumb {
+  appearance: none;
+  width: 13px;
+  height: 13px;
+  border-radius: 50%; 
+  background:rgb(37, 233, 167);
+  cursor: pointer;
+  box-shadow: -410px 0 0 400px rgb(37, 233, 167);
+  cursor: pointer;
+}  
+input[type=checkbox] {
+  accent-color: rgb(37, 233, 167);
+  width: 15px;
+  height: 15px;
+  box-shadow: 0px 0px 1.5px 1px rgba(37, 233, 167);
+}
+button {
+  padding: 15px 32px;
+  text-align: center;
+  display: inline-block;
+  font-size: 16px;
+}
+.copybutton,.inputbox{
+  box-shadow: 0px 0px 1.5px 1px rgba(37, 233, 167);
+}
+button:active {
+  background-color: rgb(37, 233, 167);
+  color: black;
+  transition: 0.2s;
+}
+::selection {
+  background: rgb(37, 233, 167);
+  color: black;
+  transition: 0.2s;
+}
+
