@@ -56,7 +56,7 @@ function App() {
           <input type="checkbox" className=' ml-5 mr-2 cursor-pointer' defaultChecked={setCharecter} onChange={()=>{
             setCharecter((prev)=>!prev)
           }}/>
-          <label>Charecters</label>
+          <label>Characters</label>
         </div>
         <button className='try mt-8 text-base pl-2 pr-2' onClick={()=>{generate();}}>Regenenate</button>
       </div>
